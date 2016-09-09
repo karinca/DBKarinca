@@ -1,0 +1,10 @@
+--===Inserciones Tabla Servicios==--
+insert into Servicio values(1,'Seleccione servicio');
+insert into Servicio values(2,'Aplicaciones Web');
+insert into Servicio values(3,'Aplicaciones de Escritorio');
+insert into Servicio values(4,'Aplicaciones Móviles');
+insert into Servicio values(5,'Otros');
+--===Inserciones Tabla Tipo_entidad==--
+INSERT INTO `Tipo_entidad`(`codigo`, `descripcion`) VALUES (1,'Seleccione Entidad');
+INSERT INTO `Tipo_entidad`(`codigo`, `descripcion`) VALUES (2,'Persona Natural');
+INSERT INTO `Tipo_entidad`(`codigo`, `descripcion`) VALUES (3,'Persona Jurídica');
