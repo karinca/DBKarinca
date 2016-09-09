@@ -24,7 +24,7 @@ CREATE TABLE `Contacto`
   `codigo_tipo_entidad` Int NOT NULL,
   `codigo_servicio` Int NOT NULL,
   `atributoextra` Char(20),
-  `atributoextra` Char(20),
+  `atributoextra1` Char(20),
  UNIQUE `id` (`id`)
 )
 ;
@@ -43,7 +43,6 @@ CREATE TABLE `Tipo_entidad`
   `descripcion` Varchar(30) NOT NULL
  COMMENT 'Descripcion tipo de entidad. Ej: persona natural',
   PRIMARY KEY (`codigo`),
-  PRIMARY KEY (`codigo`),
  UNIQUE `codigo` (`codigo`)
 )
 ;
@@ -57,7 +56,6 @@ CREATE TABLE `Servicio`
 (
   `codigo` Int NOT NULL AUTO_INCREMENT,
   `desscripcion` Varchar(30) NOT NULL,
-  PRIMARY KEY (`codigo`),
   PRIMARY KEY (`codigo`),
  UNIQUE `codigo` (`codigo`)
 )
